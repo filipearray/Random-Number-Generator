@@ -6,10 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    @import url('http://fonts.cdnfonts.com/css/product-sans');
+
+* {
+    font-family: 'Product Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1117;
+    color: #588eb6;
+}
+    
+.container{
+        margin: auto;
+        text-align: center;
+    }
+
+#inputNumberLimit{
+    padding: 13px;
+}
+
+button{
+    padding: 13px;
+}
+    
+</style>
 <body>
 
     <div class="container">
-    <h1>Random Number Generator</h1>
+    <h1 class="heading">Random Number Generator</h1>
 
     <h2>Up to what number do you want it to be random?</h2>
     <form>
@@ -18,7 +46,6 @@
     </form>
 
     <h1 id="result"></h1>
-
     </div>
 
     <script>
