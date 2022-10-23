@@ -32,7 +32,11 @@
 
             let n = Math.round(Math.random() * numberLimit);
 
-            result.innerHTML = `<h1>${n}</h1>`
+            if(numberLimit == 0){
+                result.innerHTML = `<h1></h1>`
+            } else {
+                result.innerHTML = `<h1>${n}</h1>`
+            }
         };
 
     </script>
